@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using Hibird_Theory_Backend.Models;
+using Hibird_Theory_Backend.Interfaces;
 using System.Web;
 
 namespace Hibird_Theory_Backend.Controllers
@@ -20,10 +21,12 @@ namespace Hibird_Theory_Backend.Controllers
         };
 
         private readonly ILogger<Covid19Controller> _logger;
+        private readonly ICalculationService _calculation;
 
-        public Covid19Controller(ILogger<Covid19Controller> logger)
+        public Covid19Controller(ILogger<Covid19Controller> logger, ICalculationService calculation)
         {
             _logger = logger;
+            _calculation = calculation;
         }
 
         [HttpGet]
@@ -41,6 +44,13 @@ namespace Hibird_Theory_Backend.Controllers
             result.Add(before);
             result.Add(after);
             return Ok(result);
+        }
+
+        [HttpPost]
+        public ActionResult<int> GetCalculation(int pizzaCommitments)
+        {
+            var value = _calculation.Calculation(pizzaCommitments);
+            return Ok(value);
         }
     }
 }

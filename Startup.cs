@@ -10,6 +10,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using Hibird_Theory_Backend.Interfaces;
+using Hibird_Theory_Backend.Services;
 
 namespace Hibird_Theory_Backend
 {
@@ -26,6 +28,7 @@ namespace Hibird_Theory_Backend
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+            services.AddScoped<ICalculationService, CalculationService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
