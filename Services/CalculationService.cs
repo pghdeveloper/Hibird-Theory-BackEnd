@@ -16,13 +16,19 @@ namespace Hibird_Theory_Backend.Services
         {
             //calculatione 5
             //convert pizza committments to dollar amount
-            var dollarAmount = pizzaCommitments * 15;
+            var dollarAmount = pizzaCommitments * .000015;
 
             // read demand vector (86 values)
+            var finalDemand = JsonConvert.DeserializeObject<LeonMatrix>(System.IO.File.ReadAllText("fakefinaldemand.json"));
+
             // add dolarAmount to demand[i], where i is index of foor service
-            // add 5 dollar (deliveary) to demand[j], j is index of "Other informat"
+            finalDemand.v81 = finalDemand.v81 + dollarAmount;
+            // add 5 dollar (deliveary) to demand[j], j is index of "Transit & Ground Passengers"
+            finalDemand.v49 = finalDemand.v49 + .000005;
             // as result updated demand
-            // persist updare demand
+            string json = JsonConvert.SerializeObject(finalDemand, Formatting.Indented);
+            // persist updart demand
+            File.WriteAllText("fakefinaldemand.json", json);
 
             // multiply (matrix operation) leonmatrix (86x86) by demand vector (86)
             // result leonresult vector (86)
