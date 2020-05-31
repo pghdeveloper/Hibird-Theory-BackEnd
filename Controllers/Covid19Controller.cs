@@ -32,9 +32,10 @@ namespace Hibird_Theory_Backend.Controllers
         }
 
         [HttpGet]
-        public ActionResult<List<EconIndicator>> Pizza()
+        public ActionResult<PizzaTotal> Pizza()
         {
-            var finalResult = JsonConvert.DeserializeObject<List<EconIndicator>>(System.IO.File.ReadAllText("dynamic.json"));;
+            //var finalResult = JsonConvert.DeserializeObject<List<EconIndicator>>(System.IO.File.ReadAllText("dynamic.json"));;
+            var finalResult = JsonConvert.DeserializeObject<PizzaTotal>(System.IO.File.ReadAllText("dynamicwithcommitments.json"));
             return Ok(finalResult);
         }
 
