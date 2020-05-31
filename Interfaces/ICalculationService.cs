@@ -1,6 +1,8 @@
+using Hibird_Theory_Backend.Models;
+
 namespace Hibird_Theory_Backend.Interfaces
 {
     public interface ICalculationService{
-        int Calculation(int pizzaCommitments);
+        PizzaTotal Calculation(int pizzaCommitments);
     }
 }

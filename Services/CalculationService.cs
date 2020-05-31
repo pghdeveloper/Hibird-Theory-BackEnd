@@ -1,4 +1,6 @@
 using Hibird_Theory_Backend.Interfaces;
+using Hibird_Theory_Backend.Models;
+using Newtonsoft.Json;
 
 namespace Hibird_Theory_Backend.Services
 {
@@ -9,7 +11,7 @@ namespace Hibird_Theory_Backend.Services
 
         }
 
-        public int Calculation(int pizzaCommitments)
+        public PizzaTotal Calculation(int pizzaCommitments)
         {
             //calculation
             //convert pizza committments to dollar amount
@@ -20,8 +22,9 @@ namespace Hibird_Theory_Backend.Services
             // total output multiply to coeffs to generate output indicators (N mtrix mult)
             // output indicators as json
 
-            // demand vector must to updated through each call 
-            return 1;
+            // demand vector must to updated through each call
+            var result = JsonConvert.DeserializeObject<PizzaTotal>(System.IO.File.ReadAllText("dynamicwithcommitments.json")); 
+            return result;
         }
     }
 }
