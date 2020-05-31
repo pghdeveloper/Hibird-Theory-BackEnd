@@ -7,6 +7,8 @@ using Microsoft.Extensions.Logging;
 using Hibird_Theory_Backend.Models;
 using Hibird_Theory_Backend.Interfaces;
 using System.Web;
+using System.IO;
+using Newtonsoft.Json;
 
 namespace Hibird_Theory_Backend.Controllers
 {
@@ -30,20 +32,10 @@ namespace Hibird_Theory_Backend.Controllers
         }
 
         [HttpGet]
-        public ActionResult<List<CovidData>> Pizza([FromBody]UserLocation location)
+        public ActionResult<List<EconIndicator>> Pizza()
         {
-            var result = new List<CovidData>();
-            var before = new CovidData{
-                Time = "BeforeCovid19",
-                Amount = 30000
-            };
-            var after = new CovidData {
-                Time = "AfterCovid19",
-                Amount = 10000
-            };
-            result.Add(before);
-            result.Add(after);
-            return Ok(result);
+            var finalResult = JsonConvert.DeserializeObject<List<EconIndicator>>(System.IO.File.ReadAllText("dynamic.json"));;
+            return Ok(finalResult);
         }
 
         [HttpPost]
