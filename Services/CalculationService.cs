@@ -4,6 +4,7 @@ using Newtonsoft.Json;
 using System.IO;
 using System.Collections.Generic;
 using System.Linq;
+using System;
 
 namespace Hibird_Theory_Backend.Services
 {
@@ -12,6 +13,127 @@ namespace Hibird_Theory_Backend.Services
         public CalculationService ()
         {
 
+        }
+
+        public void TestCalculation()
+        {
+            var finalDemand = JsonConvert.DeserializeObject<LeonMatrix>(System.IO.File.ReadAllText("finaldemand.json"));
+
+            List<double> totalOutput = new List<double>();
+            var leonMatrix = JsonConvert.DeserializeObject<List<LeonMatrix>>(System.IO.File.ReadAllText("leonMatrix.json"));
+            //var aa = 0;
+            foreach (var row in leonMatrix)
+            {
+                List<double> array = new List<double>();
+                array.Add(row.v1 * finalDemand.v1);
+                //Console.WriteLine("row v1: " + row.v1 + " finalDemand v1: " + finalDemand.v1);
+                array.Add(row.v2 * finalDemand.v2);
+                array.Add(row.v3 * finalDemand.v3);
+                array.Add(row.v4 * finalDemand.v4);
+                array.Add(row.v5 * finalDemand.v5);
+                array.Add(row.v6 * finalDemand.v6);
+                array.Add(row.v7 * finalDemand.v7);
+                array.Add(row.v8 * finalDemand.v8);
+                array.Add(row.v9 * finalDemand.v9);
+
+                array.Add(row.v10 * finalDemand.v10);
+                array.Add(row.v11 * finalDemand.v11);
+                array.Add(row.v12 * finalDemand.v12);
+                array.Add(row.v13 * finalDemand.v13);
+                array.Add(row.v14 * finalDemand.v14);
+                array.Add(row.v15 * finalDemand.v15);
+                array.Add(row.v16 * finalDemand.v16);
+                array.Add(row.v17 * finalDemand.v17);
+                array.Add(row.v18 * finalDemand.v18);
+                array.Add(row.v19 * finalDemand.v19);
+
+                array.Add(row.v20 * finalDemand.v20);
+                array.Add(row.v21 * finalDemand.v21);
+                array.Add(row.v22 * finalDemand.v22);
+                array.Add(row.v23 * finalDemand.v23);
+                array.Add(row.v24 * finalDemand.v24);
+                array.Add(row.v25 * finalDemand.v25);
+                array.Add(row.v26 * finalDemand.v26);
+                array.Add(row.v27 * finalDemand.v27);
+                array.Add(row.v28 * finalDemand.v28);
+                array.Add(row.v29 * finalDemand.v29);
+
+                array.Add(row.v30 * finalDemand.v30);
+                array.Add(row.v31 * finalDemand.v31);
+                array.Add(row.v32 * finalDemand.v32);
+                array.Add(row.v33 * finalDemand.v33);
+                array.Add(row.v34 * finalDemand.v34);
+                array.Add(row.v35 * finalDemand.v35);
+                array.Add(row.v36 * finalDemand.v36);
+                array.Add(row.v37 * finalDemand.v37);
+                array.Add(row.v38 * finalDemand.v38);
+                array.Add(row.v39 * finalDemand.v39);
+
+                array.Add(row.v40 * finalDemand.v40);
+                array.Add(row.v41 * finalDemand.v41);
+                array.Add(row.v42 * finalDemand.v42);
+                array.Add(row.v43 * finalDemand.v43);
+                array.Add(row.v44 * finalDemand.v44);
+                array.Add(row.v45 * finalDemand.v45);
+                array.Add(row.v46 * finalDemand.v46);
+                array.Add(row.v47 * finalDemand.v47);
+                array.Add(row.v48 * finalDemand.v48);
+                array.Add(row.v49 * finalDemand.v49);
+
+                array.Add(row.v50 * finalDemand.v50);
+                array.Add(row.v51 * finalDemand.v51);
+                array.Add(row.v52 * finalDemand.v52);
+                array.Add(row.v53 * finalDemand.v53);
+                array.Add(row.v54 * finalDemand.v54);
+                array.Add(row.v55 * finalDemand.v55);
+                array.Add(row.v56 * finalDemand.v56);
+                array.Add(row.v57 * finalDemand.v57);
+                array.Add(row.v58 * finalDemand.v58);
+                array.Add(row.v59 * finalDemand.v59);
+
+                array.Add(row.v60 * finalDemand.v60);
+                array.Add(row.v61 * finalDemand.v61);
+                array.Add(row.v62 * finalDemand.v62);
+                array.Add(row.v63 * finalDemand.v63);
+                array.Add(row.v64 * finalDemand.v64);
+                array.Add(row.v65 * finalDemand.v65);
+                array.Add(row.v66 * finalDemand.v66);
+                array.Add(row.v67 * finalDemand.v67);
+                array.Add(row.v68 * finalDemand.v68);
+                array.Add(row.v69 * finalDemand.v69);
+
+                array.Add(row.v70 * finalDemand.v70);
+                array.Add(row.v71 * finalDemand.v71);
+                array.Add(row.v72 * finalDemand.v72);
+                array.Add(row.v73 * finalDemand.v73);
+                array.Add(row.v74 * finalDemand.v74);
+                array.Add(row.v75 * finalDemand.v75);
+                array.Add(row.v76 * finalDemand.v76);
+                array.Add(row.v77 * finalDemand.v77);
+                array.Add(row.v78 * finalDemand.v78);
+                array.Add(row.v79 * finalDemand.v79);
+
+                array.Add(row.v80 * finalDemand.v80);
+                array.Add(row.v81 * finalDemand.v81);
+                array.Add(row.v82 * finalDemand.v82);
+                array.Add(row.v83 * finalDemand.v83);
+                array.Add(row.v84 * finalDemand.v84);
+                array.Add(row.v85 * finalDemand.v85);
+                array.Add(row.v86 * finalDemand.v86);
+
+                // if (aa == 0)
+                // {
+                //     foreach(double a in array)
+                //     {
+                //         Console.WriteLine(a);
+                //     }
+                //     aa = aa + 1;
+                // }
+                
+
+                totalOutput.Add(array.Sum());
+                Console.WriteLine("Total:" + array.Sum());
+            }
         }
 
         public PizzaTotal Calculation(int pizzaCommitments)
@@ -187,12 +309,11 @@ namespace Hibird_Theory_Backend.Services
 
             // return dynamicwithcommitments.json
 
-            // demand vector must to updated through each call
-            var result = JsonConvert.DeserializeObject<PizzaTotal>(System.IO.File.ReadAllText("dynamicwithcommitments.json")); 
-
             //write file to dynamic json
-            File.WriteAllText("dynamicwithcommitments.json", JsonConvert.SerializeObject(result));
-            return result;
+            string jsonFinal = JsonConvert.SerializeObject(finalCommitment, Formatting.Indented);
+            // persist updart demand
+            File.WriteAllText("dynamicwithcommitments.json", jsonFinal);
+            return finalCommitment;
         }
     }
 }

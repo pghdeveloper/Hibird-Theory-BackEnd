@@ -42,8 +42,9 @@ namespace Hibird_Theory_Backend.Controllers
         [HttpPost("{pizzaCommitments}")]
         public ActionResult<PizzaTotal> GetCalculation(int pizzaCommitments)
         {
-            var result = _calculation.Calculation(pizzaCommitments);
-            return Ok(result);
+            //var result = _calculation.Calculation(pizzaCommitments);
+            _calculation.TestCalculation();
+            return Ok(new PizzaTotal());
         }
     }
 }
