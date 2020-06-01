@@ -302,13 +302,9 @@ namespace Hibird_Theory_Backend.Services
                 sector.co2 = totalOutput[i] * co2coef[i];
                 sector.employment = totalOutput[i] * employmentcoef[i];
                 sector.gdp = totalOutput[i] * gdpcoef[i];
-                sector.fossil = totalOutput[i] * energycoef[i];
+                sector.energy = totalOutput[i] * energycoef[i];
                 i = i + 1;
             }
-            // result new dynamicwithcommitments.json
-            // persist dynamicwithcommitments.json
-
-            // return dynamicwithcommitments.json
 
             //write file to dynamic json
             string jsonFinal = JsonConvert.SerializeObject(finalCommitment, Formatting.Indented);

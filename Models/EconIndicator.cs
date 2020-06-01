@@ -8,8 +8,7 @@ namespace Hibird_Theory_Backend.Models
         public double co2 {get; set;}
         public double gdp {get; set;}
         public double employment {get; set;} //set to "BeforeCovid" or "AfterCovid"
-        public double fossil {get; set;}
-        public double nonfossil {get; set;}
+        public double energy {get; set;}
     }
 
     public class PizzaTotal

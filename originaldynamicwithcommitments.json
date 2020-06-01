@@ -1,694 +1,608 @@
 {
-    "commitments": 0,
-    "amount": 0,
-    "sectors": [
-      {
-        "sectorname": "Crop Farming",
-        "co2": 24990.121,
-        "gdp": 17407.67,
-        "employment": 115,
-        "fossil": 38.381252,
-        "nonfossil": 127.867935
-      },
-      {
-        "sectorname": "Livestock",
-        "co2": 1587.757,
-        "gdp": 2107.8767,
-        "employment": 14,
-        "fossil": 11.493125,
-        "nonfossil": 51.706745
-      },
-      {
-        "sectorname": "Forestry & Logging",
-        "co2": 206.03343,
-        "gdp": 74.14112,
-        "employment": 0,
-        "fossil": 13.698648,
-        "nonfossil": 1.5258842
-      },
-      {
-        "sectorname": "Fishing0 Hunting & Trapping",
-        "co2": 433.39072,
-        "gdp": 470.50958,
-        "employment": 3,
-        "fossil": 44.58428,
-        "nonfossil": 2.9752734
-      },
-      {
-        "sectorname": "Ag & Forestry Svcs",
-        "co2": 1185.3118,
-        "gdp": 3695.5503,
-        "employment": 24,
-        "fossil": 13.160357,
-        "nonfossil": 79.16834
-      },
-      {
-        "sectorname": "Oil & gas extraction",
-        "co2": 12390.868,
-        "gdp": 10519.058,
-        "employment": 69,
-        "fossil": 39.00816,
-        "nonfossil": 76.02589
-      },
-      {
-        "sectorname": "Mining",
-        "co2": 1152.6503,
-        "gdp": 1904.5411,
-        "employment": 13,
-        "fossil": 39.39079,
-        "nonfossil": 13.631254
-      },
-      {
-        "sectorname": "Mining services",
-        "co2": 2027.3767,
-        "gdp": 636.66327,
-        "employment": 4,
-        "fossil": 21.53915,
-        "nonfossil": 8.333384
-      },
-      {
-        "sectorname": "Utilities",
-        "co2": 6111.5884,
-        "gdp": 3009.6804,
-        "employment": 20,
-        "fossil": 24.302092,
-        "nonfossil": 34.915386
-      },
-      {
-        "sectorname": "Construction",
-        "co2": 250009.33,
-        "gdp": 239901.8,
-        "employment": 1585,
-        "fossil": 44.887524,
-        "nonfossil": 1506.7736
-      },
-      {
-        "sectorname": "Food products",
-        "co2": 99608,
-        "gdp": 49430.35,
-        "employment": 326,
-        "fossil": 37.55537,
-        "nonfossil": 371.0751
-      },
-      {
-        "sectorname": "Beverage & Tobacco",
-        "co2": 5829.043,
-        "gdp": 8970.171,
-        "employment": 59,
-        "fossil": 36.03345,
-        "nonfossil": 70.1835
-      },
-      {
-        "sectorname": "Textile Mills",
-        "co2": 246.60999,
-        "gdp": 604.1891,
-        "employment": 4,
-        "fossil": 29.290827,
-        "nonfossil": 5.815424
-      },
-      {
-        "sectorname": "Textile Products",
-        "co2": 241.31792,
-        "gdp": 391.444,
-        "employment": 3,
-        "fossil": 15.75363,
-        "nonfossil": 7.0053387
-      },
-      {
-        "sectorname": "Apparel",
-        "co2": 2224.0718,
-        "gdp": 1590.1323,
-        "employment": 11,
-        "fossil": 16.163967,
-        "nonfossil": 27.734827
-      },
-      {
-        "sectorname": "Leather & Allied",
-        "co2": 194.7032,
-        "gdp": 22.088053,
-        "employment": 0,
-        "fossil": 4.043624,
-        "nonfossil": 1.5400215
-      },
-      {
-        "sectorname": "Wood Products",
-        "co2": 805.2086,
-        "gdp": 804.98627,
-        "employment": 5,
-        "fossil": 15.1627035,
-        "nonfossil": 14.967593
-      },
-      {
-        "sectorname": "Paper Manufacturing",
-        "co2": 7477.2334,
-        "gdp": 3570.4163,
-        "employment": 24,
-        "fossil": 38.131844,
-        "nonfossil": 26.39801
-      },
-      {
-        "sectorname": "Printing & Related",
-        "co2": 474.45007,
-        "gdp": 418.80444,
-        "employment": 3,
-        "fossil": 4.2988524,
-        "nonfossil": 27.46622
-      },
-      {
-        "sectorname": "Petroleum & coal prod",
-        "co2": 8288.424,
-        "gdp": 20469.053,
-        "employment": 135,
-        "fossil": 10.968851,
-        "nonfossil": 526.1102
-      },
-      {
-        "sectorname": "Chemical Manufacturing",
-        "co2": 60235.312,
-        "gdp": 96244.19,
-        "employment": 636,
-        "fossil": 43.3518,
-        "nonfossil": 625.90375
-      },
-      {
-        "sectorname": "Plastics & rubber prod",
-        "co2": 6650.149,
-        "gdp": 1245.8215,
-        "employment": 8,
-        "fossil": 7.9910297,
-        "nonfossil": 43.953476
-      },
-      {
-        "sectorname": "Nonmetal mineral prod",
-        "co2": 14323.913,
-        "gdp": 11243.948,
-        "employment": 74,
-        "fossil": 45.93647,
-        "nonfossil": 69.0083
-      },
-      {
-        "sectorname": "Primary metal mfg",
-        "co2": 4656.899,
-        "gdp": 3386.5354,
-        "employment": 22,
-        "fossil": 35.295288,
-        "nonfossil": 27.050734
-      },
-      {
-        "sectorname": "Fabricated metal prod",
-        "co2": 2900.9272,
-        "gdp": 2672.865,
-        "employment": 18,
-        "fossil": 5.219305,
-        "nonfossil": 144.37915
-      },
-      {
-        "sectorname": "Machinery Mfg",
-        "co2": 26736.639,
-        "gdp": 14563.71,
-        "employment": 96,
-        "fossil": 27.953571,
-        "nonfossil": 146.88414
-      },
-      {
-        "sectorname": "Computer & oth electron",
-        "co2": 53768.363,
-        "gdp": 3951.0027,
-        "employment": 26,
-        "fossil": 1.7552949,
-        "nonfossil": 634.59607
-      },
-      {
-        "sectorname": "Electircal eqpt & appliances",
-        "co2": 3335.3406,
-        "gdp": 4523.1743,
-        "employment": 30,
-        "fossil": 15.216167,
-        "nonfossil": 83.80659
-      },
-      {
-        "sectorname": "Transportation eqpmt",
-        "co2": 47384.152,
-        "gdp": 56905.12,
-        "employment": 376,
-        "fossil": 37.281334,
-        "nonfossil": 430.32846
-      },
-      {
-        "sectorname": "Furniture & related prod",
-        "co2": 318.43985,
-        "gdp": 507.9586,
-        "employment": 3,
-        "fossil": 42.022953,
-        "nonfossil": 3.4078612
-      },
-      {
-        "sectorname": "Miscellaneous mfg",
-        "co2": 1397.8813,
-        "gdp": 6158.872,
-        "employment": 41,
-        "fossil": 16.168146,
-        "nonfossil": 107.394264
-      },
-      {
-        "sectorname": " Wholesale Trade",
-        "co2": 219665.92,
-        "gdp": 78332.86,
-        "employment": 517,
-        "fossil": 19.850672,
-        "nonfossil": 1112.5228
-      },
-      {
-        "sectorname": "Motor veh & parts dealers",
-        "co2": 15847.922,
-        "gdp": 18670.092,
-        "employment": 123,
-        "fossil": 43.05906,
-        "nonfossil": 122.242455
-      },
-      {
-        "sectorname": "Furniture & home furnishings",
-        "co2": 1828.9111,
-        "gdp": 3029.4624,
-        "employment": 20,
-        "fossil": 30.519855,
-        "nonfossil": 27.984867
-      },
-      {
-        "sectorname": "Electronics & appliances stores",
-        "co2": 370.9061,
-        "gdp": 49.174244,
-        "employment": 0,
-        "fossil": 4.652447,
-        "nonfossil": 2.9798636
-      },
-      {
-        "sectorname": "Bldg materials & garden dealers",
-        "co2": 17661.713,
-        "gdp": 5916.2,
-        "employment": 39,
-        "fossil": 18.40427,
-        "nonfossil": 90.62842
-      },
-      {
-        "sectorname": "food & beverage stores",
-        "co2": 11797.551,
-        "gdp": 281.67538,
-        "employment": 2,
-        "fossil": 0.58832645,
-        "nonfossil": 134.9804
-      },
-      {
-        "sectorname": "Health & personal care stores",
-        "co2": 1936.3108,
-        "gdp": 3276.2144,
-        "employment": 22,
-        "fossil": 21.694393,
-        "nonfossil": 42.576008
-      },
-      {
-        "sectorname": "Gasoline stations",
-        "co2": 6145.5347,
-        "gdp": 3393.7988,
-        "employment": 22,
-        "fossil": 29.742315,
-        "nonfossil": 32.17003
-      },
-      {
-        "sectorname": "Clothing & accessories stores",
-        "co2": 14656.6875,
-        "gdp": 962.4769,
-        "employment": 6,
-        "fossil": 2.1568553,
-        "nonfossil": 125.80836
-      },
-      {
-        "sectorname": "Sports0 hobby0 book & music stores",
-        "co2": 444.86874,
-        "gdp": 1486.1782,
-        "employment": 10,
-        "fossil": 46.52647,
-        "nonfossil": 9.005564
-      },
-      {
-        "sectorname": "General merch stores",
-        "co2": 7247.929,
-        "gdp": 11149.718,
-        "employment": 74,
-        "fossil": 38.054287,
-        "nonfossil": 82.60388
-      },
-      {
-        "sectorname": "Misc retailers",
-        "co2": 6059.578,
-        "gdp": 4572.1304,
-        "employment": 30,
-        "fossil": 35.790516,
-        "nonfossil": 36.015614
-      },
-      {
-        "sectorname": "Non0store retailers",
-        "co2": 36624.168,
-        "gdp": 20528.445,
-        "employment": 136,
-        "fossil": 38.912003,
-        "nonfossil": 148.7348
-      },
-      {
-        "sectorname": "Air transportation",
-        "co2": 11340.8,
-        "gdp": 3157.201,
-        "employment": 21,
-        "fossil": 11.614477,
-        "nonfossil": 76.63775
-      },
-      {
-        "sectorname": "Rail Transportation",
-        "co2": 1288.7761,
-        "gdp": 578.4309,
-        "employment": 4,
-        "fossil": 13.108125,
-        "nonfossil": 12.44088
-      },
-      {
-        "sectorname": "Water transportation",
-        "co2": 4050.1423,
-        "gdp": 3290.1384,
-        "employment": 22,
-        "fossil": 37.77416,
-        "nonfossil": 24.556108
-      },
-      {
-        "sectorname": "Truck transportation",
-        "co2": 7500.626,
-        "gdp": 3288.8145,
-        "employment": 22,
-        "fossil": 26.358044,
-        "nonfossil": 35.177612
-      },
-      {
-        "sectorname": "Transit & ground passengers",
-        "co2": 2775.029,
-        "gdp": 381.5696,
-        "employment": 3,
-        "fossil": 4.390049,
-        "nonfossil": 24.504429
-      },
-      {
-        "sectorname": "Pipeline transportation",
-        "co2": 325.1956,
-        "gdp": 594.3522,
-        "employment": 4,
-        "fossil": 45.61779,
-        "nonfossil": 3.673244
-      },
-      {
-        "sectorname": "Sightseeing transportation",
-        "co2": 8400.465,
-        "gdp": 11563.953,
-        "employment": 76,
-        "fossil": 44.55116,
-        "nonfossil": 73.17917
-      },
-      {
-        "sectorname": "Postal service couriers & messengers",
-        "co2": 12564.074,
-        "gdp": 19060.229,
-        "employment": 126,
-        "fossil": 37.793026,
-        "nonfossil": 142.18591
-      },
-      {
-        "sectorname": "Warehousing & storage",
-        "co2": 13765.557,
-        "gdp": 5769.7095,
-        "employment": 38,
-        "fossil": 16.83916,
-        "nonfossil": 96.59923
-      },
-      {
-        "sectorname": "Publishing industries",
-        "co2": 65566.61,
-        "gdp": 36794.992,
-        "employment": 243,
-        "fossil": 32.581326,
-        "nonfossil": 318.3905
-      },
-      {
-        "sectorname": "Motion picture & sound recording",
-        "co2": 97258.73,
-        "gdp": 38208.457,
-        "employment": 252,
-        "fossil": 18.037697,
-        "nonfossil": 597.1983
-      },
-      {
-        "sectorname": "Broadcasting",
-        "co2": 19534.385,
-        "gdp": 29520.354,
-        "employment": 195,
-        "fossil": 36.23489,
-        "nonfossil": 229.68613
-      },
-      {
-        "sectorname": "Telecommunications",
-        "co2": 43139.742,
-        "gdp": 25010.848,
-        "employment": 165,
-        "fossil": 18.227774,
-        "nonfossil": 386.84314
-      },
-      {
-        "sectorname": "Internet & data process svcs",
-        "co2": 8173.541,
-        "gdp": 7644.8535,
-        "employment": 50,
-        "fossil": 25.505579,
-        "nonfossil": 84.50339
-      },
-      {
-        "sectorname": "Other information services",
-        "co2": 26794.379,
-        "gdp": 23895.379,
-        "employment": 158,
-        "fossil": 19.068483,
-        "nonfossil": 353.29535
-      },
-      {
-        "sectorname": "Monetary authorities",
-        "co2": 6212.7305,
-        "gdp": 7903.6084,
-        "employment": 52,
-        "fossil": 32.443363,
-        "nonfossil": 68.68149
-      },
-      {
-        "sectorname": "Credit intermediation & related",
-        "co2": 9549.032,
-        "gdp": 7373.0864,
-        "employment": 49,
-        "fossil": 36.08613,
-        "nonfossil": 57.603546
-      },
-      {
-        "sectorname": "Securities & other financial",
-        "co2": 22267.73,
-        "gdp": 24141.006,
-        "employment": 159,
-        "fossil": 44.20401,
-        "nonfossil": 153.9692
-      },
-      {
-        "sectorname": "Insurance carriers & related",
-        "co2": 24710.643,
-        "gdp": 21487.45,
-        "employment": 142,
-        "fossil": 28.134438,
-        "nonfossil": 215.32118
-      },
-      {
-        "sectorname": "Funds0 trusts & other finan",
-        "co2": 9862.966,
-        "gdp": 4367.3486,
-        "employment": 29,
-        "fossil": 11.130474,
-        "nonfossil": 110.62272
-      },
-      {
-        "sectorname": "Real estate",
-        "co2": 163577.47,
-        "gdp": 75748.625,
-        "employment": 500,
-        "fossil": 35.325783,
-        "nonfossil": 604.53735
-      },
-      {
-        "sectorname": "Rental & leasing svcs",
-        "co2": 13685.795,
-        "gdp": 2244.1863,
-        "employment": 15,
-        "fossil": 7.160583,
-        "nonfossil": 88.35897
-      },
-      {
-        "sectorname": "Lessor of nonfinance intang assets",
-        "co2": 10597.429,
-        "gdp": 11482.442,
-        "employment": 76,
-        "fossil": 23.444729,
-        "nonfossil": 138.0795
-      },
-      {
-        "sectorname": "Professional0 scientific & tech svcs",
-        "co2": 294231.47,
-        "gdp": 320990.1,
-        "employment": 2120,
-        "fossil": 47.678623,
-        "nonfossil": 1898.0519
-      },
-      {
-        "sectorname": "Management of companies",
-        "co2": 16674.188,
-        "gdp": 3921.2104,
-        "employment": 26,
-        "fossil": 8.694756,
-        "nonfossil": 127.14607
-      },
-      {
-        "sectorname": "Admin support svcs",
-        "co2": 66598.266,
-        "gdp": 18153.004,
-        "employment": 120,
-        "fossil": 9.246246,
-        "nonfossil": 553.50714
-      },
-      {
-        "sectorname": "Waste mgmt & remediation svcs",
-        "co2": 1063.1442,
-        "gdp": 4167.754,
-        "employment": 28,
-        "fossil": 32.651337,
-        "nonfossil": 35.986633
-      },
-      {
-        "sectorname": "Educational svcs",
-        "co2": 13200.549,
-        "gdp": 7383.0645,
-        "employment": 49,
-        "fossil": 33.69937,
-        "nonfossil": 61.76679
-      },
-      {
-        "sectorname": "Ambulatory health care",
-        "co2": 89855.02,
-        "gdp": 39541.71,
-        "employment": 261,
-        "fossil": 19.418453,
-        "nonfossil": 574.0913
-      },
-      {
-        "sectorname": "Hospitals",
-        "co2": 78134.69,
-        "gdp": 45097.066,
-        "employment": 298,
-        "fossil": 33.92584,
-        "nonfossil": 374.76398
-      },
-      {
-        "sectorname": "Nursing & residential care",
-        "co2": 28115.555,
-        "gdp": 8653.475,
-        "employment": 57,
-        "fossil": 19.135696,
-        "nonfossil": 127.49303
-      },
-      {
-        "sectorname": "Social assistance",
-        "co2": 27942.436,
-        "gdp": 8526.111,
-        "employment": 56,
-        "fossil": 12.45305,
-        "nonfossil": 193.02582
-      },
-      {
-        "sectorname": "Performing arts & spectator sports",
-        "co2": 5331.347,
-        "gdp": 15371.281,
-        "employment": 102,
-        "fossil": 31.14403,
-        "nonfossil": 139.1475
-      },
-      {
-        "sectorname": "Museums & similar",
-        "co2": 1022.45496,
-        "gdp": 1262.8936,
-        "employment": 8,
-        "fossil": 43.958965,
-        "nonfossil": 8.099523
-      },
-      {
-        "sectorname": "Amusement0 gambling & recreation",
-        "co2": 11936.6455,
-        "gdp": 5807.325,
-        "employment": 38,
-        "fossil": 14.904725,
-        "nonfossil": 109.84804
-      },
-      {
-        "sectorname": "Accommodations",
-        "co2": 5924.84,
-        "gdp": 2447.057,
-        "employment": 16,
-        "fossil": 13.635888,
-        "nonfossil": 50.594204
-      },
-      {
-        "sectorname": "Food svcs & drinking places",
-        "co2": 108791.08,
-        "gdp": 56171.44,
-        "employment": 371,
-        "fossil": 43.511528,
-        "nonfossil": 363.9581
-      },
-      {
-        "sectorname": "Repair & maintenance",
-        "co2": 47744.78,
-        "gdp": 19353.025,
-        "employment": 128,
-        "fossil": 29.879066,
-        "nonfossil": 182.60892
-      },
-      {
-        "sectorname": "Personal & laundry svcs",
-        "co2": 2670.6,
-        "gdp": 3821.756,
-        "employment": 25,
-        "fossil": 14.015795,
-        "nonfossil": 76.875046
-      },
-      {
-        "sectorname": "Religious0 grantmaking0 & similar orgs",
-        "co2": 40495.203,
-        "gdp": 9515.95,
-        "employment": 63,
-        "fossil": 13.158677,
-        "nonfossil": 203.88255
-      },
-      {
-        "sectorname": "Private households",
-        "co2": 5010.765,
-        "gdp": 2278.4148,
-        "employment": 15,
-        "fossil": 29.995544,
-        "nonfossil": 21.414906
-      },
-      {
-        "sectorname": "Government",
-        "co2": 146609.53,
-        "gdp": 154062.88,
-        "employment": 1018,
-        "fossil": 28.47653,
-        "nonfossil": 1525.2853
-      }
-    ]
+  "commitments": 0,
+  "amount": 0,
+  "sectors": [
+    {
+    "sectorname": "Crop Farming",
+    "co2": 4512.6683,
+    "gdp": 18237.0674,
+    "employment": 82621.7943,
+    "energy": 97.2404
+  },
+  {
+    "sectorname": "Livestock",
+    "co2": 326.7784,
+    "gdp": 1048.3403,
+    "employment": 1193.1376,
+    "energy": 7.0415
+  },
+  {
+    "sectorname": "Forestry & Logging",
+    "co2": 26.3708,
+    "gdp": 106.2489,
+    "employment": 829.1332,
+    "energy": 0.5682
+  },
+  {
+    "sectorname": "Fishing, Hunting & Trapping",
+    "co2": 24.3272,
+    "gdp": 143.5335,
+    "employment": 377.9546,
+    "energy": 0.5242
+  },
+  {
+    "sectorname": "Ag & Forestry Svcs",
+    "co2": 265.5172,
+    "gdp": 8967.27,
+    "employment": 99048.34,
+    "energy": 5.7215
+  },
+  {
+    "sectorname": "Oil & gas extraction",
+    "co2": 41.7873,
+    "gdp": 1404.797,
+    "employment": 5740.6457,
+    "energy": 0.9004
+  },
+  {
+    "sectorname": "Mining",
+    "co2": 29.0617,
+    "gdp": 776.9364,
+    "employment": 2549.5782,
+    "energy": 0.6262
+  },
+  {
+    "sectorname": "Mining services",
+    "co2": 61.6874,
+    "gdp": 1827.7494,
+    "employment": 12467.3276,
+    "energy": 1.3293
+  },
+  {
+    "sectorname": "Utilities",
+    "co2": 1091.6146,
+    "gdp": 32402.7865,
+    "employment": 114640.1386,
+    "energy": 23.5225
+  },
+  {
+    "sectorname": "Construction",
+    "co2": 1302.2097,
+    "gdp": 34924.0247,
+    "employment": 187527.4412,
+    "energy": 28.0604
+  },
+  {
+    "sectorname": "Food products",
+    "co2": 1951.6826,
+    "gdp": 39803.5273,
+    "employment": 122121.4747,
+    "energy": 42.0555
+  },
+  {
+    "sectorname": "Beverage & Tobacco",
+    "co2": 660.9849,
+    "gdp": 14846.4845,
+    "employment": 46498.0268,
+    "energy": 14.2431
+  },
+  {
+    "sectorname": "Textile Mills",
+    "co2": 0.774,
+    "gdp": 18.6284,
+    "employment": 71.6778,
+    "energy": 0.0167
+  },
+  {
+    "sectorname": "Textile Products",
+    "co2": 1.1114,
+    "gdp": 30.2551,
+    "employment": 145.5033,
+    "energy": 0.0239
+  },
+  {
+    "sectorname": "Apparel",
+    "co2": 4.3487,
+    "gdp": 117.8058,
+    "employment": 775.396,
+    "energy": 0.0937
+  },
+  {
+    "sectorname": "Leather & Allied",
+    "co2": 0.3827,
+    "gdp": 8.6441,
+    "employment": 57.6944,
+    "energy": 0.0082
+  },
+  {
+    "sectorname": "Wood Products",
+    "co2": 45.7866,
+    "gdp": 1031.2003,
+    "employment": 5555.3471,
+    "energy": 0.9866
+  },
+  {
+    "sectorname": "Paper Manufacturing",
+    "co2": 130.3883,
+    "gdp": 3004.0377,
+    "employment": 11242.5142,
+    "energy": 2.8096
+  },
+  {
+    "sectorname": "Printing & Related",
+    "co2": 96.3667,
+    "gdp": 2342.0344,
+    "employment": 15724.8193,
+    "energy": 2.0765
+  },
+  {
+    "sectorname": "Petroleum & coal prod",
+    "co2": 942.9138,
+    "gdp": 29036.2981,
+    "employment": 24957.7237,
+    "energy": 20.3182
+  },
+  {
+    "sectorname": "Chemical Manufacturing",
+    "co2": 2117.2321,
+    "gdp": 57428.7449,
+    "employment": 127144.642,
+    "energy": 45.6228
+  },
+  {
+    "sectorname": "Plastics & rubber prod",
+    "co2": 12.7923,
+    "gdp": 302.525,
+    "employment": 1236.6336,
+    "energy": 0.2757
+  },
+  {
+    "sectorname": "Nonmetal mineral prod",
+    "co2": 2.7802,
+    "gdp": 62.0825,
+    "employment": 317.5897,
+    "energy": 0.0599
+  },
+  {
+    "sectorname": "Primary metal mfg",
+    "co2": 134.7953,
+    "gdp": 3463.4933,
+    "employment": 11178.9956,
+    "energy": 2.9046
+  },
+  {
+    "sectorname": "Fabricated metal prod",
+    "co2": 457.1696,
+    "gdp": 12396.2921,
+    "employment": 67978.6274,
+    "energy": 9.8512
+  },
+  {
+    "sectorname": "Machinery Mfg",
+    "co2": 760.4037,
+    "gdp": 20722.9345,
+    "employment": 108119.2589,
+    "energy": 16.3854
+  },
+  {
+    "sectorname": "Computer & oth electron",
+    "co2": 70.2956,
+    "gdp": 1849.6855,
+    "employment": 9745.0129,
+    "energy": 1.5148
+  },
+  {
+    "sectorname": "Electircal eqpt & appliances",
+    "co2": 250.9609,
+    "gdp": 6501.1029,
+    "employment": 34958.133,
+    "energy": 5.4078
+  },
+  {
+    "sectorname": "Transportation eqpmt",
+    "co2": 1700.2584,
+    "gdp": 46831.6262,
+    "employment": 181022.9533,
+    "energy": 36.6377
+  },
+  {
+    "sectorname": "Furniture & related prod",
+    "co2": 191.5324,
+    "gdp": 4604.6423,
+    "employment": 25383.6066,
+    "energy": 4.1272
+  },
+  {
+    "sectorname": "Miscellaneous mfg",
+    "co2": 36.3851,
+    "gdp": 938.6939,
+    "employment": 5696.8036,
+    "energy": 0.784
+  },
+  {
+    "sectorname": "Wholesale Trade",
+    "co2": 2117.9321,
+    "gdp": 58091.905,
+    "employment": 365523.087,
+    "energy": 45.6379
+  },
+  {
+    "sectorname": "Motor veh & parts dealers",
+    "co2": 572.2303,
+    "gdp": 18153.8819,
+    "employment": 131011.0365,
+    "energy": 12.3306
+  },
+  {
+    "sectorname": "Furniture & home furnishings",
+    "co2": 185.0303,
+    "gdp": 4928.4002,
+    "employment": 33697.2694,
+    "energy": 3.9871
+  },
+  {
+    "sectorname": "Electronics & appliances stores",
+    "co2": 100.5745,
+    "gdp": 2612.8911,
+    "employment": 43199.61,
+    "energy": 2.1672
+  },
+  {
+    "sectorname": "Bldg materials & garden dealers",
+    "co2": 369.3917,
+    "gdp": 9919.3166,
+    "employment": 73859.2722,
+    "energy": 7.9598
+  },
+  {
+    "sectorname": "food & beverage stores",
+    "co2": 836.5134,
+    "gdp": 24598.0923,
+    "employment": 187524.9562,
+    "energy": 18.0255
+  },
+  {
+    "sectorname": "Health & personal care stores",
+    "co2": 369.9974,
+    "gdp": 10065.658,
+    "employment": 81238.7981,
+    "energy": 7.9728
+  },
+  {
+    "sectorname": "Gasoline stations",
+    "co2": 196.4911,
+    "gdp": 6099.8218,
+    "employment": 25530.9404,
+    "energy": 4.2341
+  },
+  {
+    "sectorname": "Clothing & accessories stores",
+    "co2": 531.6656,
+    "gdp": 14103.1026,
+    "employment": 78754.1955,
+    "energy": 11.4565
+  },
+  {
+    "sectorname": "Sports, hobby, book & music stores",
+    "co2": 133.0009,
+    "gdp": 3672.0409,
+    "employment": 26989.3004,
+    "energy": 2.8659
+  },
+  {
+    "sectorname": "General merch stores",
+    "co2": 729.505,
+    "gdp": 20262.373,
+    "employment": 155171.418,
+    "energy": 15.7196
+  },
+  {
+    "sectorname": "Misc retailers",
+    "co2": 249.6314,
+    "gdp": 7031.7737,
+    "employment": 49395.2654,
+    "energy": 5.3791
+  },
+  {
+    "sectorname": "Non,store retailers",
+    "co2": 925.9934,
+    "gdp": 24693.2529,
+    "employment": 76142.0599,
+    "energy": 19.9536
+  },
+  {
+    "sectorname": "Air transportation",
+    "co2": 602.6737,
+    "gdp": 15817.9643,
+    "employment": 78234.1515,
+    "energy": 12.9866
+  },
+  {
+    "sectorname": "Rail Transportation",
+    "co2": 50.8331,
+    "gdp": 1091.5947,
+    "employment": 10457.6062,
+    "energy": 1.0954
+  },
+  {
+    "sectorname": "Water transportation",
+    "co2": 136.3406,
+    "gdp": 2685.6404,
+    "employment": 10020.4294,
+    "energy": 2.9379
+  },
+  {
+    "sectorname": "Truck transportation",
+    "co2": 633.9542,
+    "gdp": 13420.5577,
+    "employment": 76564.0037,
+    "energy": 13.6607
+  },
+  {
+    "sectorname": "Transit & ground passengers",
+    "co2": 232.1741,
+    "gdp": 4512.9696,
+    "employment": 65189.6457,
+    "energy": 5.003
+  },
+  {
+    "sectorname": "Pipeline transportation",
+    "co2": 8.4637,
+    "gdp": 242.4399,
+    "employment": 1567.9114,
+    "energy": 0.1824
+  },
+  {
+    "sectorname": "Sightseeing transportation",
+    "co2": 226.5249,
+    "gdp": 5478.0816,
+    "employment": 43957.8685,
+    "energy": 4.8812
+  },
+  {
+    "sectorname": "Postal service couriers & messengers",
+    "co2": 149.7924,
+    "gdp": 4214.5927,
+    "employment": 41902.6594,
+    "energy": 3.2278
+  },
+  {
+    "sectorname": "Warehousing & storage",
+    "co2": 88.9174,
+    "gdp": 2317.6548,
+    "employment": 23045.2502,
+    "energy": 1.916
+  },
+  {
+    "sectorname": "Publishing industries",
+    "co2": 1337.5769,
+    "gdp": 41823.1428,
+    "employment": 267962.3238,
+    "energy": 28.8225
+  },
+  {
+    "sectorname": "Motion picture & sound recording",
+    "co2": 2165.6378,
+    "gdp": 66900.9946,
+    "employment": 288132.7446,
+    "energy": 46.6659
+  },
+  {
+    "sectorname": "Broadcasting",
+    "co2": 960.0531,
+    "gdp": 22603.6612,
+    "employment": 66231.3624,
+    "energy": 20.6875
+  },
+  {
+    "sectorname": "Telecommunications",
+    "co2": 6741.3844,
+    "gdp": 42022.5553,
+    "employment": 115765.2735,
+    "energy": 145.2655
+  },
+  {
+    "sectorname": "Internet & data process svcs",
+    "co2": 1187.0935,
+    "gdp": 7411.6316,
+    "employment": 85777.1419,
+    "energy": 25.5799
+  },
+  {
+    "sectorname": "Other information services",
+    "co2": 5650.5342,
+    "gdp": 41287.5023,
+    "employment": 389743.4517,
+    "energy": 121.7595
+  },
+  {
+    "sectorname": "Monetary authorities",
+    "co2": 2265.7662,
+    "gdp": 20600.1181,
+    "employment": 94673.0122,
+    "energy": 48.8235
+  },
+  {
+    "sectorname": "Credit intermediation & related",
+    "co2": 716.6393,
+    "gdp": 5202.3699,
+    "employment": 60263.2465,
+    "energy": 15.4424
+  },
+  {
+    "sectorname": "Securities & other financial",
+    "co2": 2670.555,
+    "gdp": 14152.0978,
+    "employment": 163511.7401,
+    "energy": 57.546
+  },
+  {
+    "sectorname": "Insurance carriers & related",
+    "co2": 2771.7349,
+    "gdp": 20985.2629,
+    "employment": 134278.4331,
+    "energy": 59.7262
+  },
+  {
+    "sectorname": "Funds, trusts & other finan",
+    "co2": 1900.8574,
+    "gdp": 10512.3235,
+    "employment": 36320.3201,
+    "energy": 40.9603
+  },
+  {
+    "sectorname": "Real estate",
+    "co2": 31811.2054,
+    "gdp": 284462.1469,
+    "employment": 184352.5643,
+    "energy": 685.478
+  },
+  {
+    "sectorname": "Rental & leasing svcs",
+    "co2": 821.494,
+    "gdp": 7019.6925,
+    "employment": 27584.8532,
+    "energy": 17.7018
+  },
+  {
+    "sectorname": "Lessor of nonfinance intang assets",
+    "co2": 1426.8674,
+    "gdp": 9169.381,
+    "employment": 6437.021,
+    "energy": 30.7466
+  },
+  {
+    "sectorname": "Professional, scientific & tech svcs",
+    "co2": 23408.3825,
+    "gdp": 193769.9583,
+    "employment": 1806767.092,
+    "energy": 504.4113
+  },
+  {
+    "sectorname": "Management of companies",
+    "co2": 1642.0482,
+    "gdp": 12962.8781,
+    "employment": 142172.5128,
+    "energy": 35.3834
+  },
+  {
+    "sectorname": "Admin support svcs",
+    "co2": 1918.4781,
+    "gdp": 16136.7346,
+    "employment": 167398.6254,
+    "energy": 41.34
+  },
+  {
+    "sectorname": "Waste mgmt & remediation svcs",
+    "co2": 463.1187,
+    "gdp": 3592.2306,
+    "employment": 23945.0545,
+    "energy": 9.9794
+  },
+  {
+    "sectorname": "Educational svcs",
+    "co2": 771.1063,
+    "gdp": 6819.7544,
+    "employment": 76303.2672,
+    "energy": 16.616
+  },
+  {
+    "sectorname": "Ambulatory health care",
+    "co2": 12400.8972,
+    "gdp": 104955.5689,
+    "employment": 1046745.231,
+    "energy": 267.2185
+  },
+  {
+    "sectorname": "Hospitals",
+    "co2": 7033.6967,
+    "gdp": 58191.9083,
+    "employment": 601777.9467,
+    "energy": 151.5643
+  },
+  {
+    "sectorname": "Nursing & residential care",
+    "co2": 2068.4628,
+    "gdp": 17247.6882,
+    "employment": 199759.9116,
+    "energy": 44.5719
+  },
+  {
+    "sectorname": "Social assistance",
+    "co2": 3323.5572,
+    "gdp": 26866.6366,
+    "employment": 277228.2449,
+    "energy": 71.6171
+  },
+  {
+    "sectorname": "Performing arts & spectator sports",
+    "co2": 1853.8701,
+    "gdp": 15146.1877,
+    "employment": 98175.7204,
+    "energy": 39.9478
+  },
+  {
+    "sectorname": "Museums & similar",
+    "co2": 159.6817,
+    "gdp": 1082.6402,
+    "employment": 13677.328,
+    "energy": 3.4409
+  },
+  {
+    "sectorname": "Amusement, gambling & recreation",
+    "co2": 192.7799,
+    "gdp": 1464.6222,
+    "employment": 9825.5999,
+    "energy": 4.1541
+  },
+  {
+    "sectorname": "Accommodations",
+    "co2": 8245.1795,
+    "gdp": 4001.469,
+    "employment": 27117.5694,
+    "energy": 177.6698
+  },
+  {
+    "sectorname": "Food svcs & drinking places",
+    "co2": 43175.4251,
+    "gdp": 20965.3485,
+    "employment": 154969.3381,
+    "energy": 930.3579
+  },
+  {
+    "sectorname": "Repair & maintenance",
+    "co2": 25104.3249,
+    "gdp": 14011.4849,
+    "employment": 80488.6727,
+    "energy": 540.956
+  },
+  {
+    "sectorname": "Personal & laundry svcs",
+    "co2": 31214.9718,
+    "gdp": 14972.6284,
+    "employment": 84048.6905,
+    "energy": 672.6302
+  },
+  {
+    "sectorname": "Religious, grantmaking, & similar orgs",
+    "co2": 37760.974,
+    "gdp": 18903.5841,
+    "employment": 221499.7065,
+    "energy": 813.6856
+  },
+  {
+    "sectorname": "Private households",
+    "co2": 7041.4272,
+    "gdp": 4816.9639,
+    "employment": 68169.0856,
+    "energy": 151.7309
+  },
+  {
+    "sectorname": "Government",
+    "co2": 334278.4667,
+    "gdp": 212879.4979,
+    "employment": 2349808.95,
+    "energy": 7203.1395
   }
+  ]
+}
