@@ -303,6 +303,7 @@ namespace Hibird_Theory_Backend.Services
                 sector.employment = totalOutput[i] * employmentcoef[i];
                 sector.gdp = totalOutput[i] * gdpcoef[i];
                 sector.fossil = totalOutput[i] * energycoef[i];
+                i = i + 1;
             }
             // result new dynamicwithcommitments.json
             // persist dynamicwithcommitments.json
